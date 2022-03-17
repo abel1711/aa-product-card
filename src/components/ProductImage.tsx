@@ -18,7 +18,7 @@ export const ProductImage = ( {img, className, style }: PropsImage )=>{
     return(
         <img 
             className={ `${ styles.productImg } ${ className }` } 
-            src={ (img) ? img : (product.img)? product.img : '../assets/no-image.jpg' } 
+            src={ (img) ? img : (product?.img)? product.img : '../assets/no-image.jpg' } 
             alt="Product img"
             style={ style }
         />

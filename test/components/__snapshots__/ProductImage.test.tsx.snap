@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas al ProductImage debe de mostrar correctamente la img enviada por las props 1`] = `
+<img
+  alt="Product img"
+  className="productImg undefined"
+  src="image-test"
+/>
+`;
+
+exports[`Pruebas al ProductImage debe de mostrar la img del product 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product img"
+    className="productImg undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
