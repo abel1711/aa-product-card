@@ -1,19 +1,19 @@
-# AA-Product-Card
+# ABAM-Product-Card
 
 Este es un paquete de pruebas de despliegues en NPM
 
-### Amieva Abel
+### Abel Amieva
 
 ## Ejemplo
 
 ```
-import {} from '';
+import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'abam-product-card';
 ```
 
 ```
     <ProductCard 
         product={ product }
-        initialValues={{
+        initialValues={{ // podemos inicializar la tarjeta 
             count: 4,
             maxCount: 8,
         }}
